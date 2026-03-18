@@ -6,7 +6,7 @@ Creates a single IAM role
 
 ```hcl
 module "iam_role" {
-  source  = "https://github.com/cirrostech/module-role"
+  source  = "app.terraform.io/snap-terraform/module-role/aws"
 
   role_name = "example-role"
 
